@@ -72,30 +72,3 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:1100px) {
-    .header-area .nav-link {
-        margin-right: 5px;
-    }
-
-}
-
-@media screen and (max-width:991px) {
-    .btn-blue {
-        width: 100%;
-        margin-top: 10px;
-    }
-
-    .btn-yellow {
-        width: 100%;
-        margin-top: 15px;
-    }
-}

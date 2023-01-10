@@ -2,6 +2,14 @@
     .header-area .nav-link {
         margin-right: 5px;
     }
+
+    .btn-blue {
+        margin-right: 15px;
+    }
+
+    .my-text h3 {
+        font-size: 36px;
+    }
 }
 
 @media screen and (max-width:991px) {
@@ -18,5 +26,44 @@
     .header-area .nav-link {
         margin-right: 1px;
         position: relative;
+    }
+
+    .my-text {
+        margin-top: 0px;
+    }
+
+    .my-text a {
+        margin-block: 20px;
+    }
+
+    .my-text h3,
+    .my-text p {
+        text-align: center;
+    }
+    .hero .img-fluid {
+        margin-top: 30px;
+        margin-left: 12%;
+    }
+    .my-btn {
+        text-align: center;
+        margin-block: 10px;
+    }
+    .work-team{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .work-team img{
+        margin-left: 10%;
+    }
+    .team-text{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .hero .img-fluid {
+        margin-top: 30px;
+        margin: auto;
     }
 }

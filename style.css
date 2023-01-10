@@ -7,12 +7,13 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    scroll-behavior: smooth;
 }
-
 :root {
     --yellow--color--: #FFE492;
     --cyan--color--: #4F9CF9;
     --dark--cyan--: #043873;
+    --text--color--:#212529;
 }
 
 h1 {
@@ -28,9 +29,15 @@ h2 {
     font-weight: 700;
     color: #fff;
 }
+h3 {
+    font-size: 38px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
 
 p {
-    font-size: 18px;
+    font-size: 13px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     color: #fff;
@@ -40,17 +47,16 @@ p {
 /* header area */
 .header-area {
     background-color: var(--dark--cyan--);
+    padding:5px;
+    box-shadow: 0px 0px 3px 0px rgb(20 127 229) ;
 }
 
 .header-area .nav-link {
     color: #fff !important;
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
-    margin-right: 25px;
-}
-
-.text-white {
-    color: #4F9CF9;
+    margin-right: 20px;
+    font-size: 16px;
 }
 
 .btn-yellow {
@@ -62,13 +68,67 @@ p {
     color: #fff;
     background-color: var(--cyan--color--);
 }
+i{
+    font-size: 12px;
+}
+.dropdown-menu{
+    background-color: var(--cyan--color--);
+}
+.my-bar{
+    font-size: 22px;
+    color: #fff;
+    transition: .4s;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: transparent;
+    box-shadow: none;
+    transition: .4s;
+}
+/*=================================== header end=====================*/
+/*=================================== hero start=====================*/
+.hero{
+    background: url(asset/img/Element.png),var(--dark--cyan--);
+    padding: 50px 0 50px 0;
+    overflow: hidden;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+.my-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.my-text p{
+    margin-block: 30px;
+}
+.hero .img-fluid{
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
 
+.my-btn .btn-blue2{
+    margin: auto;
+    color: #fff;
+    background-color: #4F9CF9;
+}
+/*=================================== hero End=====================*/
+.project{
+    padding-block: 90px;
+}
 
-
-
-
-
-
-
+.project h3,.project p{
+    color: var(--text--color--);
+}
+.work-team img{
+    width: 80%;
+}
+.team-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 

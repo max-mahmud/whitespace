@@ -59,11 +59,42 @@
         margin-bottom: 50px;
         text-align: center;
     }
+    .cl-black{
+        width: 49%;
+        margin-top: 20px;
+    }
+    .footer-bottom{
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width:750px) {
     .hero .img-fluid {
         margin-top: 30px;
         margin: auto;
+    }
+    .cl-black{
+        width: 98%;
+        margin-top: 20px;
+    }
+    .sponser-logo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer-item{
+        flex-basis: 100%;
+        margin-top: 15px;
+    }
+    .footer-item ul{
+        padding: 0;
+    }
+    .footer-btn{
+        display: inline;
+    }
+}
+@media screen and (max-width:750px){
+    .footer-item{
+        text-align: center;
     }
 }

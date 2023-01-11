@@ -88,7 +88,7 @@ i{
 /*=================================== header end=====================*/
 /*=================================== hero start=====================*/
 .hero{
-    background: url(asset/img/Element.png),var(--dark--cyan--);
+    background: url(asset/img/Element2.png),var(--dark--cyan--);
     padding: 50px 0 50px 0;
     overflow: hidden;
     height: auto;
@@ -115,6 +115,7 @@ i{
     background-color: #4F9CF9;
 }
 /*=================================== hero End=====================*/
+/*=================================== Project=====================*/
 .project{
     padding-block: 90px;
 }
@@ -130,5 +131,317 @@ i{
     flex-direction: column;
     justify-content: center;
 }
+/*=================================== Project End=====================*/
+/*=================================== extension=====================*/
+.extension{
+    background-color: var(--dark--cyan--);
+    padding-block: 90px;
+}
+.extension-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*=================================== extension End=====================*/
 
+/*=================================== customize-text=====================*/
+.customize{
+    padding-block: 90px;
+}
+.customize-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.customize-text h3, .customize-text p{
+    color: var(--dark--cyan--);
+}
+/*=================================== customize-text End=====================*/
+/*=================================== plan=====================*/
+.plan{
+    padding: 40px 0 90 0;
+}
+.plan-text h2{
+    color: #212529;
+    text-align: center;
+}
+.plan-text p{
+    color: #212529;
+    text-align: center;
+    padding: 20px 0;
+}
+.cl-black h3{
+    color: #212529;
+}
+.cl-black{
+    box-shadow: rgb(190 190 190) 3px 4px 20px 3px;
+    transition: all .4s;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #fff;
+    border: 2px solid #043873;
+    width: 31%;
+}
+.cl-black:hover{
+    background-color: var(--dark--cyan--);
+}
+.cl-black:hover h4{
+    color: #fff;
+}
+.cl-black:hover p{
+  color: #fff;
+}.cl-black:hover li{
+    color: #fff;
+}
+.cl-black:hover h3{
+    color:#fff;
+}
+.cl-black h4{
+    color: var(--dark--cyan--);
+}
+.cl-black h3{
+    color: var(--dark--cyan--);
+}
+.cl-black p{
+    color: var(--dark--cyan--);
+}
+.list-item li{
+    color: var(--dark--cyan--);
+    font-size: 15px;
+    list-style: none;
+    margin-block: 15px;
+}
+.list-item {
+    padding: 0;
+}
+.list-item li i{
+    font-size: 21px;
+    margin-right: 15px;
+}
 
+.plan-btn{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border: 2px solid #FFE492;
+    text-decoration: none;
+    color: #043873;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #fff;
+    transition: all .4s;
+}
+.plan-btn:hover{
+    color: #FFE492;
+    background-color: #043873;
+}
+.pricing{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/*=================================== plan-End=====================*/
+/*=================================== Work=====================*/
+.work{
+    margin: 70px 0;
+    background: #043873;
+    padding: 90px 0;
+    text-align: center;
+}
+.work h2{
+    font-size: 48px;
+}
+.work p{
+    margin-block: 30px;
+}
+/*=================================== Work end=====================*/
+/*=================================== data=====================*/
+.data{
+    padding: 80px 0;
+}
+.data h3{
+    color: var(--text--color--);
+}
+.data p{
+    color: var(--text--color--);
+    font-size: 14px;
+}
+/*=================================== data end=====================*/
+/*=================================== sponser=====================*/
+.sponser{
+    padding: 40px 0;
+}
+.sponser h3{
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--text--color--);
+}
+.sponser-logo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sponser-logo img{
+    margin-top: 20px;
+    width: 24%;
+}
+/* =================apps================ */
+.apps{
+    background-color: var(--dark--cyan--);
+    padding: 90px 0;
+}
+.apps img{
+    width: 90%;
+}
+.apps h3{
+    color: #fff;
+    font-size: 48px;
+}
+.apps p{
+    color: #ddd;
+    padding: 30px 0;
+}
+/*======================== Client ==================*/
+.client{
+    padding: 80px 0;
+}
+.client-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.client-box{
+    padding: 20px;
+    width: 32%;
+    height: auto;
+    box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: all .4s;
+}
+
+.client-box i{
+    font-size: 70px;
+    transition: all.4s;
+}
+.client-box p{
+    margin-block: 15px;
+    position: relative;
+    color: #212529;
+    transition: all.4s;
+}
+.client-box >p::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    top: 70px;
+    left: 10px;
+    transition: all.4s;
+    background-color: #212529;
+}
+.client-box-img{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.client-box-img img{
+    margin-right: 15px;
+    width: 95px;
+    height: 95px;
+}
+.client-box-img h3{
+    font-size: 20px;
+    color: #212529;
+}
+.client-box:hover{
+    background-color: #4F9CF9;
+}
+.client-box:hover i,.client-box:hover p{
+    color: #fff;
+}
+.client-box:hover >p::after{
+    background-color: #fff;
+}
+/* ====================footer============= */
+footer{
+    background-color: #043873
+}
+.footer-top{
+    padding: 90px 0;
+    text-align: center;
+}
+.footer-top p{
+    margin: 25px;
+}
+/* ================footer menu================ */
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+.footer-item{
+    flex-basis: 20%;
+}
+.footer-item p{
+    color: #fff;
+    font-size: 16px;
+    margin-block: 20px;
+}
+.footer-item ul li{
+    color: #fff;
+    margin-bottom: 12px;
+}
+.footer-item ul li:first-child{
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-item h3{
+    font-size: 28px;
+}
+/* ==========================Footer bottom ================*/
+.footer-bottom{
+    padding: 20px 0;
+    position: relative;
+}
+.footer-bottom::before{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.288);
+    position: absolute;
+    top: -10px;
+}
+.footer-bottom{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.ftr{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.ftr i{
+    margin-right: -33px;
+    color: #fff;
+    font-size: 22px;
+}
+.ftr-icon i{
+    background-color: #043873;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 15px;
+    margin-left: 15px;
+    font-size: 19px;
+    color: #fff;
+    transition: all.4s;
+}
+.ftr-icon i:first-child{
+    width: 47px;
+}
+.ftr-icon i:hover{
+    color: var(--dark--cyan--);
+    background-color: #fff;
+}
